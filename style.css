@@ -1,0 +1,160 @@
+ul{
+    display: flex;
+    gap: 3rem;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: white;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+#fst{
+    background-image:url("./background.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.mid-container {
+    background-color:white;
+    opacity: 10px;
+
+ } 
+
+.title{
+    color: white;
+    font-size: 6em;
+    font-family: serif;
+    text-align: center;
+}
+img{
+    /* padding: 0;
+    margin: 0; */
+    border-radius: 100%;
+    height: 200px;
+}
+.profile{
+    
+    text-align: center;
+    padding-top: 100px;
+    /* margin-top: 50px; */
+}
+.greet{
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.intro{
+    text-align: center;
+    font-size: medium;
+    width:30%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    line-height: 2;
+    padding-bottom: 50px;
+   }
+.lang{
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3rem;
+    margin: 20px 30px;
+    height: 50%;
+    max-width: 600px;
+    margin-bottom: 50px;
+    /* margin-left: 20%; */
+    /* padding-left: 15%; */
+    
+} 
+
+   
+#button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    
+}
+.btn{
+    display: flex;
+    background-color: firebrick;
+    color:white;
+    width: 100px;
+    height: 50px;
+    border-radius: 20%;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+}
+.touch{
+    padding-top: 30px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+}
+.touch2{
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+.touch3{
+    width: 50%;
+    margin: auto;
+    padding-bottom: 10px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.social-media{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  
+    color: aliceblue;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.title img {
+    max-width : 500px; 
+    max-height: 300px; 
+    border-radius:20%
+}
+
+@media (max-width : 450px) {
+    .skills{
+        grid-template-columns: 1fr;
+    
+    } 
+    .title{
+        font-size: 2em;
+        text-align: left;
+    }
+    .title img{
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+    }
+}
